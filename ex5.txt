@@ -1,0 +1,11 @@
+  500  mkdir -p a/b/c/d
+  501  cd a/b/c/
+  502  rmdir d
+  503  echo "Name: Ananya \nDate: `date`" > test.txt
+  504  cd
+  505  cat Documents/BCR/Git/a/b/c/test.txt 
+  506  mv Documents/BCR/Git/a/b/c/test.txt Documents/BCR/Git/a/b/
+  507  rmdir Documents/BCR/Git/a/b/c
+  508  ls -R Documents/BCR/Git/a/
+  509  rm -rf Documents/BCR/Git/a/
+  510  history | less > Documents/BCR/Git/Ex3/ex5.txt
